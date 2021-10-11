@@ -1,6 +1,6 @@
 import { createNewColArea } from "./createColumns";
 import { createTable } from './createCsv';
-const centerScreen = document.getElementById('centerScreen');
+const centerScreen = document.getElementById('centerScreen') as HTMLDivElement;
 
 const columnList = [] as string[];
 
@@ -16,7 +16,3 @@ const changeState = (): void => {
 window.onload = () => {
     centerScreen.append(createNewColArea(columnList, changeState));
 }
-
-
-
-

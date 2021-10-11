@@ -7,7 +7,7 @@ function newColumnFormInput(): HTMLDivElement {
     const subContainerDiv = document.createElement('div') as HTMLDivElement;
     const label = document.createElement('label') as HTMLLabelElement;
     const input = document.createElement('input') as HTMLInputElement;
-    const delButton = document.createElement('Button') as HTMLButtonElement;
+    const delButton = document.createElement('button') as HTMLButtonElement;
 
 
     containerDiv.classList.add('mb-3', 'border', 'border-secondary');
